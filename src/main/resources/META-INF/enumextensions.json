@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "CLOCKWARE_PROJECTILE_LAUNCHER",
+      "constructor": "(ZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": {
+        "class": "mors/clockware/client/Clockware_ArmPoses",
+        "field": "PROJECTILE_LAUNCHER"
+      }
+    }
+  ]
+}

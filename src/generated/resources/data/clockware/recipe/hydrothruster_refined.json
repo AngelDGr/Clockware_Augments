@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "G": {
+      "item": "create:golden_sheet"
+    },
+    "P": {
+      "item": "clockware:hydrothruster_prototype"
+    }
+  },
+  "pattern": [
+    "GCG",
+    "CPC",
+    "GCG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:hydrothruster_refined"
+  }
+}

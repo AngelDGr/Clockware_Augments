@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "ASA",
+    "HZH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:biopurifier_prototype"
+  }
+}

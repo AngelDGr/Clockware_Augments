@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "OCO",
+    "AOA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:obsidian_core_prototype"
+  }
+}

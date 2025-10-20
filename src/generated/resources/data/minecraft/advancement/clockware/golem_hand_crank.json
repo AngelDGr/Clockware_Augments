@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:clockware/get_masterwork_clockware",
+  "criteria": {
+    "golem_hand_crank": {
+      "trigger": "clockware:clockware/golem_hand_crank"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "extra": [
+        {
+          "color": "gray",
+          "text": "\n§7(Hidden Advancement)"
+        }
+      ],
+      "translate": "advancements.clockware.golem_hand_crank.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "clockware:golem_arm_masterwork"
+    },
+    "title": {
+      "translate": "advancements.clockware.golem_hand_crank.title"
+    }
+  },
+  "requirements": [
+    [
+      "golem_hand_crank"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "R": {
+      "item": "clockware:arachnid_optics_refined"
+    }
+  },
+  "pattern": [
+    " EBE ",
+    "BMRMB",
+    " BBB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:arachnid_optics_masterwork"
+  }
+}

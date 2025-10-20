@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "R": {
+      "item": "clockware:reaper_blade_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "X": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "pattern": [
+    "BEB",
+    "BMB",
+    "XRB",
+    "BMB",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:reaper_blade_masterwork"
+  }
+}

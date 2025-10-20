@@ -1,0 +1,34 @@
+{
+  "parent": "create:andesite_alloy",
+  "criteria": {
+    "get_any_clockware": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#clockware:clockware_items"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.clockware.get_any_clockware.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "clockware:obsidian_core_prototype"
+    },
+    "title": {
+      "translate": "advancements.clockware.get_any_clockware.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_any_clockware"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "W": {
+      "item": "create:water_wheel"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AWZ",
+    "DRA",
+    "DAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:projectile_launcher_prototype"
+  }
+}

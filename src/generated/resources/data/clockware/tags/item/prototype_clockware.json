@@ -1,0 +1,19 @@
+{
+  "values": [
+    "clockware:arachnid_optics_prototype",
+    "clockware:biopurifier_prototype",
+    "clockware:optical_calibrator_prototype",
+    "clockware:golem_arm_prototype",
+    "clockware:reaper_blade_prototype",
+    "clockware:feline_hand_prototype",
+    "clockware:projectile_launcher_prototype",
+    "clockware:obsidian_core_prototype",
+    "clockware:clockwork_heart_prototype",
+    "clockware:buoyancy_chamber_prototype",
+    "clockware:thermal_regulator_prototype",
+    "clockware:kinetic_actuator_prototype",
+    "clockware:jet_ankle_prototype",
+    "clockware:hydrothruster_prototype",
+    "clockware:shock_absorber_prototype"
+  ]
+}

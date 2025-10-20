@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "G": {
+      "item": "create:golden_sheet"
+    },
+    "S": {
+      "item": "create:cogwheel"
+    },
+    "W": {
+      "item": "create:whisk"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "GZG",
+    "ACA",
+    "SWS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:clockwork_heart_prototype"
+  }
+}

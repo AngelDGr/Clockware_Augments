@@ -1,0 +1,42 @@
+{
+  "package": "mors.clockware.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "RipperdocMenuMixins$MerchantMenuMixin",
+    "RipperdocMenuMixins$VillagerMixin",
+    "ServerPlayerMixin",
+    "clockware.ArachnidOpticsMixins$LightTextureMixin",
+    "clockware.ArachnidOpticsMixins$PlayerMixin",
+    "clockware.BiopurifierMixins$AreaEffectCloudMixin",
+    "clockware.BiopurifierMixins$LivingEntityMixin",
+    "clockware.BiopurifierMixins$PotionItemMixin",
+    "clockware.BiopurifierMixins$ThrownPotionMixin",
+    "clockware.BuoyancyChamberMixins$LivingEntityMixin",
+    "clockware.ClockworkHeartMixins$FoodDataMixin",
+    "clockware.GolemArmMixins$HandCrankBlockMixin",
+    "clockware.HydrothrusterMixins$LivingEntityMixin",
+    "clockware.JetAnkleMixins$LivingEntityMixin",
+    "clockware.OpticalCalibratorMixins$LivingEntityMixin",
+    "clockware.OpticalCalibratorMixins$ProjectileMixin",
+    "clockware.OpticalCalibratorMixins$ProjectileWeaponMixin",
+    "clockware.ReaperBladeMixins$LivingEntityMixin",
+    "clockware.ReaperBladeMixins$ServerPlayerMixin",
+    "clockware.ShockAbsorberMixins$LivingEntityMixin",
+    "clockware.ThermalRegulatorMixins$BaseFireBlockMixin",
+    "clockware.ThermalRegulatorMixins$CampfireBlockMixin",
+    "clockware.ThermalRegulatorMixins$EntityMixin",
+    "clockware.ThermalRegulatorMixins$LivingEntityMixin",
+    "clockware.ThermalRegulatorMixins$MagmaBlockMixin"
+  ],
+  "client": [
+    "RipperdocMenuMixins$MerchantScreenMixin",
+    "client.ClientPlayNetworkHandlerMixin",
+    "client.HumanoidModelMixin",
+    "client.ItemInHandRendererMixin",
+    "client.LocalPlayerMixin",
+    "client.PlayerRendererMixin"
+  ]
+}

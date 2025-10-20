@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "create:powdered_obsidian"
+    },
+    "R": {
+      "item": "clockware:obsidian_core_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    "  S  ",
+    " SPS ",
+    "BPRPB",
+    " BPB ",
+    "  B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:obsidian_core_masterwork"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "E": {
+      "item": "create:fluid_pipe"
+    },
+    "I": {
+      "item": "minecraft:packed_ice"
+    },
+    "P": {
+      "item": "clockware:thermal_regulator_prototype"
+    }
+  },
+  "pattern": [
+    "ECE",
+    "IPI",
+    "ECE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:thermal_regulator_refined"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "net/minecraft/world/inventory/MerchantMenu": [
+    "mors/clockware/injection/GetVillagerProfession"
+  ],
+  "net/minecraft/world/entity/LivingEntity": [
+    "mors/clockware/injection/ClockwareInject"
+  ],
+  "net/minecraft/server/level/ServerPlayer": [
+    "mors/clockware/injection/BladeLunge"
+  ],
+
+  "net/minecraft/client/player/AbstractClientPlayer": [
+    "mors/clockware/injection/IsRightClickingClockware"
+  ],
+
+  "net/minecraft/world/entity/player/Player": [
+    "mors/clockware/injection/IsRightClickingClockware"
+  ]
+}

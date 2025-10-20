@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "R": {
+      "item": "clockware:jet_ankle_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "W": {
+      "item": "minecraft:wind_charge"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BMB",
+    "SRS",
+    "SWS",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:jet_ankle_masterwork"
+  }
+}

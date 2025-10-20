@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "L": {
+      "item": "create:large_cogwheel"
+    },
+    "W": {
+      "item": "create:water_wheel"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "GWZ",
+    "ALA",
+    "IAI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:feline_hand_prototype"
+  }
+}

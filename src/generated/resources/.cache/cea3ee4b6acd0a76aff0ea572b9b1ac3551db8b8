@@ -1,0 +1,5 @@
+// 1.21.1	2025-10-19T03:12:52.8931727	Tags for minecraft:item mod id clockware
+b40ef11ab18f27140f20d42395639cd895e447f2 data/clockware/tags/item/clockware_items.json
+9f23f91a390aee8d35fe476751e2f05e8146d19b data/clockware/tags/item/masterwork_clockware.json
+b3494a5f521eb1c0751f86648dd3832f69b49865 data/clockware/tags/item/prototype_clockware.json
+3a5dbc076acb64147bdd25ce259083302bb48f70 data/clockware/tags/item/refined_clockware.json

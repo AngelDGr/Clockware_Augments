@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "ICI",
+    "ALA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:thermal_regulator_prototype"
+  }
+}

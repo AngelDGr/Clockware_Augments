@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:brass_block"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "R": {
+      "item": "clockware:shock_absorber_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "SWS",
+    "SRS",
+    "BWB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:shock_absorber_masterwork"
+  }
+}

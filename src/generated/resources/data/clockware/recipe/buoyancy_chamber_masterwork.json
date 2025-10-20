@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "R": {
+      "item": "clockware:buoyancy_chamber_refined"
+    },
+    "Z": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "pattern": [
+    "  B  ",
+    " BMB ",
+    "BZRZB",
+    " BMB ",
+    "  B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:buoyancy_chamber_masterwork"
+  }
+}

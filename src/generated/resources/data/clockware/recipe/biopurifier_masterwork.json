@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "H": {
+      "item": "minecraft:honeycomb_block"
+    },
+    "R": {
+      "item": "clockware:biopurifier_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    " BBB ",
+    "BHRHB",
+    " SSS "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:biopurifier_masterwork"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "P": {
+      "item": "clockware:buoyancy_chamber_prototype"
+    }
+  },
+  "pattern": [
+    "CMC",
+    "MPM",
+    "CMC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:buoyancy_chamber_refined"
+  }
+}

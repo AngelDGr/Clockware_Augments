@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "I": {
+      "item": "minecraft:blue_ice"
+    },
+    "P": {
+      "item": "create:blaze_burner"
+    },
+    "R": {
+      "item": "clockware:thermal_regulator_refined"
+    }
+  },
+  "pattern": [
+    "  B  ",
+    " BIB ",
+    "BIRIB",
+    " BPB ",
+    "  B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:thermal_regulator_masterwork"
+  }
+}

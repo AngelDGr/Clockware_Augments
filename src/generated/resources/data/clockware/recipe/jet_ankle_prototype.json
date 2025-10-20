@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "ACA",
+    "PRP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:jet_ankle_prototype"
+  }
+}

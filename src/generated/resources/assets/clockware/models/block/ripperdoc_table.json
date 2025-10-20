@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "clockware:block/ripperdoc_table_down",
+    "east": "clockware:block/ripperdoc_table_side3",
+    "north": "clockware:block/ripperdoc_table_side1",
+    "particle": "clockware:block/ripperdoc_table_side3",
+    "south": "clockware:block/ripperdoc_table_side2",
+    "up": "clockware:block/ripperdoc_table_top",
+    "west": "clockware:block/ripperdoc_table_side3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "ACA",
+    "MAM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:hydrothruster_prototype"
+  }
+}

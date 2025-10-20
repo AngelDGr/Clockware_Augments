@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "E": {
+      "item": "minecraft:spider_eye"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "EZE",
+    "ESE",
+    "AZA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:arachnid_optics_prototype"
+  }
+}

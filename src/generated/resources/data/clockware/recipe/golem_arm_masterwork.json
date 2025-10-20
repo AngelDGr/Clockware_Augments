@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "R": {
+      "item": "clockware:golem_arm_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "X": {
+      "item": "create:brass_block"
+    }
+  },
+  "pattern": [
+    "XEB",
+    "XMB",
+    "BRB",
+    "SMB",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:golem_arm_masterwork"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "ACA",
+    "BWB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:shock_absorber_prototype"
+  }
+}

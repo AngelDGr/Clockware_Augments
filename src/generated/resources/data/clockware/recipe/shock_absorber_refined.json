@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "clockware:shock_absorber_prototype"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CPC",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:shock_absorber_refined"
+  }
+}

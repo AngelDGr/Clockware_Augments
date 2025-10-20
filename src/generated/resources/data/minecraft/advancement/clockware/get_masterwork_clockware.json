@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:clockware/get_any_clockware",
+  "criteria": {
+    "get_masterwork_clockware": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#clockware:masterwork_clockware"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.clockware.get_masterwork_clockware.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "clockware:obsidian_core_masterwork"
+    },
+    "title": {
+      "translate": "advancements.clockware.get_masterwork_clockware.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_masterwork_clockware"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

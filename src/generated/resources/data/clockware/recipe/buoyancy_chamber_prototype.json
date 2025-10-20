@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "MCM",
+    "AMA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:buoyancy_chamber_prototype"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "ACI",
+    "ASI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:kinetic_actuator_prototype"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "R": {
+      "item": "clockware:optical_calibrator_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    " EBE ",
+    "SMRMS",
+    " EBE "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:optical_calibrator_masterwork"
+  }
+}

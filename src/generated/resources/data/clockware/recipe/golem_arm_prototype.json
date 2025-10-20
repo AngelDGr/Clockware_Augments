@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "P": {
+      "item": "create:mechanical_press"
+    },
+    "W": {
+      "item": "create:water_wheel"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "GWZ",
+    "GPA",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:golem_arm_prototype"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "M": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AZA",
+    "MSM",
+    "AZA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:optical_calibrator_prototype"
+  }
+}

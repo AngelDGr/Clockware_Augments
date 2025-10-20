@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "P": {
+      "item": "clockware:optical_calibrator_prototype"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "GPG",
+    "CGC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:optical_calibrator_refined"
+  }
+}

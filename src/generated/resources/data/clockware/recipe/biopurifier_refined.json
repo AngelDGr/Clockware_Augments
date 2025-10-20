@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "P": {
+      "item": "clockware:biopurifier_prototype"
+    }
+  },
+  "pattern": [
+    "BCB",
+    "HPH",
+    "BCB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:biopurifier_refined"
+  }
+}

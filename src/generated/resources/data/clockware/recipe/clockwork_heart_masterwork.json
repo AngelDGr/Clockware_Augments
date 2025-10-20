@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "M": {
+      "item": "create:mechanical_mixer"
+    },
+    "P": {
+      "item": "create:blaze_burner"
+    },
+    "R": {
+      "item": "clockware:clockwork_heart_refined"
+    }
+  },
+  "pattern": [
+    "  B  ",
+    " BMB ",
+    "BPRPB",
+    " BPB ",
+    "  B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:clockwork_heart_masterwork"
+  }
+}

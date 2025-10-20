@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "F": {
+      "tag": "c:feathers"
+    },
+    "P": {
+      "item": "clockware:kinetic_actuator_prototype"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "FPF",
+    "CSC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:kinetic_actuator_refined"
+  }
+}

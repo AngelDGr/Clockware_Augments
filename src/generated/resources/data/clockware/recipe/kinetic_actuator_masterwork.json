@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "F": {
+      "tag": "c:feathers"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "R": {
+      "item": "clockware:kinetic_actuator_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BMB",
+    "SRS",
+    "FMF",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:kinetic_actuator_masterwork"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "clockware:clockwork_heart_prototype"
+    },
+    "S": {
+      "item": "create:steam_engine"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "CPC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:clockwork_heart_refined"
+  }
+}

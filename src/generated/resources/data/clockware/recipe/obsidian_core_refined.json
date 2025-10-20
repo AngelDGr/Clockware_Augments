@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "clockware:obsidian_core_prototype"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "BPB",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:obsidian_core_refined"
+  }
+}

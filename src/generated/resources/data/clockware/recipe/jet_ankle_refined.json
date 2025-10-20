@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "clockware:jet_ankle_prototype"
+    },
+    "W": {
+      "item": "minecraft:wind_charge"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "BPB",
+    "WCW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:jet_ankle_refined"
+  }
+}

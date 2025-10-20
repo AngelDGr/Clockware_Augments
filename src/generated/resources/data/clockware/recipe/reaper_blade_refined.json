@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "E": {
+      "item": "create:steam_engine"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    },
+    "P": {
+      "item": "clockware:reaper_blade_prototype"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "CFC",
+    "SEC",
+    "CPC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:reaper_blade_refined"
+  }
+}

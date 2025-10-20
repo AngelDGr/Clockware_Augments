@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "E": {
+      "item": "create:steam_engine"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    },
+    "P": {
+      "item": "clockware:projectile_launcher_prototype"
+    }
+  },
+  "pattern": [
+    "CFC",
+    "DEC",
+    "BPC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:projectile_launcher_refined"
+  }
+}

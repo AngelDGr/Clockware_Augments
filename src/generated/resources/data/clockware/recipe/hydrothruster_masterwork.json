@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "R": {
+      "item": "clockware:hydrothruster_refined"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "SMS",
+    "SRS",
+    "PMP",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:hydrothruster_masterwork"
+  }
+}

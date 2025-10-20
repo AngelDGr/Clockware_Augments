@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "P": {
+      "item": "minecraft:sticky_piston"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    },
+    "W": {
+      "item": "create:water_wheel"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AWZ",
+    "SPA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockware:reaper_blade_prototype"
+  }
+}
