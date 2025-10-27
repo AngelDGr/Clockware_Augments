@@ -50,7 +50,7 @@ public class HandlePackets {
                 context.player().openMenu(new ClockwareMenuProvider(
                         (x, inventory, player) ->
                                 new ClockwareMenu(x, inventory, villager),
-                        Component.translatable("gui.clockware.ripperdoc.install"), villager.getId()
+                        Component.translatable("gui.clockware.ripperdoc.installation"), villager.getId()
                 ));
 
                 //To keep the trading player

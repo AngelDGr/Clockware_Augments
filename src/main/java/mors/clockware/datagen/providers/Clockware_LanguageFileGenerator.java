@@ -135,7 +135,8 @@ public class Clockware_LanguageFileGenerator extends LanguageProvider {
         //Gui
         {
             add("gui.clockware.ripperdoc.block", "Seeing Clockware");
-            add("gui.clockware.ripperdoc.install", "Install Clockware");
+            add("gui.clockware.ripperdoc.install_button", "Install Clockware");
+            add("gui.clockware.ripperdoc.installation", "Installing Clockware");
             add("gui.clockware.ripperdoc.part.head", "Head");
             add("gui.clockware.ripperdoc.part.body", "Body");
             add("gui.clockware.ripperdoc.part.right_arm", "Arm-R");
