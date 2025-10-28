@@ -74,7 +74,7 @@ public class Clockware_AdvancementsGenerator extends AdvancementProvider {
                             Clockware_Items.GOLEM_ARM_MASTERWORK.get(), // The display icon
                             Component.translatable("advancements.clockware.golem_hand_crank.title"), // The title
                             Component.translatable("advancements.clockware.golem_hand_crank.description").withStyle(s -> s.withColor(0xDBA213))
-                                    .append(Component.translatable("advancements.clockware.secret_suffix").withStyle(ChatFormatting.GRAY)), // The description
+                                    .append(Component.translatable("clockware.secret_suffix").withStyle(ChatFormatting.GRAY)), // The description
                             null,
                             AdvancementType.CHALLENGE, // Options: TASK, CHALLENGE, GOAL
                             true, // Show toast top right

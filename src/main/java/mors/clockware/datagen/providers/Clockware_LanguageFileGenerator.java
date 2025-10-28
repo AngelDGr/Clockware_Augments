@@ -159,6 +159,8 @@ public class Clockware_LanguageFileGenerator extends LanguageProvider {
             add("advancements.clockware.get_masterwork_clockware.title", "Forged Beyond Flesh");
             add("advancements.clockware.get_masterwork_clockware.description", "Get a masterwork level clockware");
 
+            add("clockware.secret_suffix", "\n\u00A77(Hidden Advancement)");
+
         }
     }
 
