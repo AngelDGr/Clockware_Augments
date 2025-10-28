@@ -71,7 +71,7 @@ public class Clockware_LanguageFileGenerator extends LanguageProvider {
 
                 add("item.clockware.head.biopurifier_0.tooltip.summary", "Integrates a _biochemical filter_ into the user's _jaw_, purifying ingested _food_ from _harmful_ _effects_.");
                 add("item.clockware.head.biopurifier_1.tooltip.summary", "Integrates a _biochemical filter_ into the user's _jaw_, granting immunity to _effects_ from _food_, as well as from _drinkable_ and _splash_ _potions_.");
-                add("item.clockware.head.biopurifier_2.tooltip.summary", "Integrates a _biochemical filter_ into the user's _jaw_, neutralizing toxins from _food_ and nearly all forms of _potions_ (except _arrows_). Neutralizes _dragon's_ _breath_");
+                add("item.clockware.head.biopurifier_2.tooltip.summary", "Integrates a _biochemical filter_ into the user's _jaw_, neutralizing toxins from _food_ and nearly all forms of _potions_ (except _arrows_). Neutralizes _dragon's_ _breath_.");
 
                 add("item.clockware.head.optical_calibrator_0.tooltip.summary", "Equips the user with an _enhanced eye_, removing _projectile_ _inaccuracy_.");
                 add("item.clockware.head.optical_calibrator_1.tooltip.summary", "Equips the user with an _enhanced eye_, removing _projectile_ _inaccuracy_ and granting immunity to _vision-distorting_ effects like _darkness_ and _nausea_.");
@@ -80,16 +80,16 @@ public class Clockware_LanguageFileGenerator extends LanguageProvider {
 
             //Arms
             {
-                add("item.clockware.arm.golem_arm.tooltip.summary", "Enhances the user's _strength_, increasing _attack_ and _mining_ _speed_");
-                add("item.clockware.arm.reaper_blade.tooltip.summary", "Deploys a hidden _blade_ from the wrist while _empty-handed_, the blade _ignores armor_");
+                add("item.clockware.arm.golem_arm.tooltip.summary", "Enhances the user's _strength_, increasing _attack_ and _mining_ _speed_.");
+                add("item.clockware.arm.reaper_blade.tooltip.summary", "Deploys a hidden _blade_ from the wrist while _empty-handed_, the blade _ignores armor_.");
                 add("item.clockware.arm.reaper_blade.tooltip.condition1", "Main Hand Arm");
-                add("item.clockware.arm.reaper_blade.tooltip.behaviour1", "With an empty hand, hold _left-click_ (not at a block) for half a second to _extend_/_retract_ the blade");
+                add("item.clockware.arm.reaper_blade.tooltip.behaviour1", "With an empty hand, hold _left-click_ (not at a block) for half a second to _extend_/_retract_ the blade.");
                 add("item.clockware.arm.reaper_blade.tooltip.condition2", "Off Hand Arm");
-                add("item.clockware.arm.reaper_blade.tooltip.behaviour2", "Grants passive _attack speed_ bonus");
+                add("item.clockware.arm.reaper_blade.tooltip.behaviour2", "Grants passive _attack speed_ bonus.");
                 add("item.clockware.arm.reaper_blade.tooltip.condition3", "With Both Arms");
-                add("item.clockware.arm.reaper_blade.tooltip.behaviour3", "With _blades_ _out_, hold _right-click_ to _lunge_ (3s _cooldown_)");
+                add("item.clockware.arm.reaper_blade.tooltip.behaviour3", "With _blades_ _out_, hold _right-click_ to _lunge_ (3s _cooldown_).");
 
-                add("item.clockware.arm.feline_hand.tooltip.summary", "Enhances the user's _agility_, increasing _attacking_ _speed_ and _block_ _reach_");
+                add("item.clockware.arm.feline_hand.tooltip.summary", "Enhances the user's _agility_, increasing _attacking_ _speed_ and _block_ _reach_.");
 
                 add("item.clockware.arm.projectile_launcher.tooltip.summary", "Gives the user the ability to _shoot_ _projectiles_ from their wrist, including _arrows_, _eggs_, _snowballs_ and _rockets_.");
                 add("item.clockware.arm.projectile_launcher.tooltip.condition1", "Reload from inventory");
@@ -135,7 +135,8 @@ public class Clockware_LanguageFileGenerator extends LanguageProvider {
         //Gui
         {
             add("gui.clockware.ripperdoc.block", "Seeing Clockware");
-            add("gui.clockware.ripperdoc.install", "Install Clockware");
+            add("gui.clockware.ripperdoc.install_button", "Install Clockware");
+            add("gui.clockware.ripperdoc.installation", "Installing Clockware");
             add("gui.clockware.ripperdoc.part.head", "Head");
             add("gui.clockware.ripperdoc.part.body", "Body");
             add("gui.clockware.ripperdoc.part.right_arm", "Arm-R");
@@ -157,6 +158,8 @@ public class Clockware_LanguageFileGenerator extends LanguageProvider {
 
             add("advancements.clockware.get_masterwork_clockware.title", "Forged Beyond Flesh");
             add("advancements.clockware.get_masterwork_clockware.description", "Get a masterwork level clockware");
+
+            add("clockware.secret_suffix", "\n\u00A77(Hidden Advancement)");
 
         }
     }

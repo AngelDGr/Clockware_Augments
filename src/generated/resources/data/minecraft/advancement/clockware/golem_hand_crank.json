@@ -11,7 +11,7 @@
       "extra": [
         {
           "color": "gray",
-          "text": "\n§7(Hidden Advancement)"
+          "translate": "clockware.secret_suffix"
         }
       ],
       "translate": "advancements.clockware.golem_hand_crank.description"

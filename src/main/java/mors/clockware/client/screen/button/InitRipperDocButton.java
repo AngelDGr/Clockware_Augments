@@ -47,7 +47,7 @@ public class InitRipperDocButton extends Button {
         guiGraphics.blitSprite(SPRITES.get(this.active, this.isHoveredOrFocused()), this.getX(), this.getY(), this.getWidth(), this.getHeight());
         guiGraphics.setColor(1.0F, 1.0F, 1.0F, 1.0F);
 
-        Component text=Component.translatable("gui.clockware.ripperdoc.install").setStyle(Style.EMPTY.withColor( this.isHoveredOrFocused()? 0xfae0a9 :0xf7cb6c));
+        Component text=Component.translatable("gui.clockware.ripperdoc.install_button").setStyle(Style.EMPTY.withColor( this.isHoveredOrFocused()? 0xfae0a9 :0xf7cb6c));
 
         // Center text
         int textX = this.getX() + this.getWidth() / 2;
