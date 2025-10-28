@@ -29,7 +29,7 @@ public class Clockware_AdvancementsGenerator extends AdvancementProvider {
     }
 
     @SuppressWarnings("all")
-    static final String SECRET_SUFFIX = "\n\u00A77(Hidden Advancement)";
+    static final String SECRET_SUFFIX = "\n\u00A77(Hidden Advancement)"; // Replaced by "advancements.clockware.secret_suffix"
 
     private static final class Generator implements AdvancementGenerator {
 
@@ -74,7 +74,7 @@ public class Clockware_AdvancementsGenerator extends AdvancementProvider {
                             Clockware_Items.GOLEM_ARM_MASTERWORK.get(), // The display icon
                             Component.translatable("advancements.clockware.golem_hand_crank.title"), // The title
                             Component.translatable("advancements.clockware.golem_hand_crank.description").withStyle(s -> s.withColor(0xDBA213))
-                                    .append(Component.literal(SECRET_SUFFIX).withStyle(ChatFormatting.GRAY)), // The description
+                                    .append(Component.translatable("advancements.clockware.secret_suffix").withStyle(ChatFormatting.GRAY)), // The description
                             null,
                             AdvancementType.CHALLENGE, // Options: TASK, CHALLENGE, GOAL
                             true, // Show toast top right
