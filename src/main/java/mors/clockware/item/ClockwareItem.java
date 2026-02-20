@@ -17,6 +17,7 @@ import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
+import net.minecraft.util.Mth;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
@@ -96,18 +97,20 @@ public class ClockwareItem extends Item {
         }
     }
 
+    private static final Random RANDOM = new Random();
+
     public static void ensureHasUUID(ItemStack stack) {
         if (stack == null || stack.isEmpty()) return;
         var type = Clockware_Components.CLOCKWARE_UUID.get();
         if (!stack.has(type)) {
-            stack.set(type, new ClockwareUUID(UUID.randomUUID()));
+            stack.set(type, new ClockwareUUID(Mth.createInsecureUUID()));
         }
     }
 
     @Override
     public @NotNull ItemStack getDefaultInstance() {
         ItemStack stack = super.getDefaultInstance();
-        stack.set(Clockware_Components.CLOCKWARE_UUID.get(), new ClockwareUUID(UUID.randomUUID()));
+        stack.set(Clockware_Components.CLOCKWARE_UUID.get(), new ClockwareUUID(Mth.createInsecureUUID()));
         return stack;
     }
 
