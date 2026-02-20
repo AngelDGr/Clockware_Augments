@@ -25,6 +25,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+import java.util.Random;
 
 public class ClockwareItem extends Item {
     private final int level;
@@ -96,18 +97,20 @@ public class ClockwareItem extends Item {
         }
     }
 
+    private static final Random RANDOM = new Random();
+
     public static void ensureHasUUID(ItemStack stack) {
         if (stack == null || stack.isEmpty()) return;
         var type = Clockware_Components.CLOCKWARE_UUID.get();
         if (!stack.has(type)) {
-            stack.set(type, new ClockwareUUID(UUID.randomUUID()));
+            stack.set(type, new ClockwareUUID(new UUID(RANDOM.nextLong(), RANDOM.nextLong())));
         }
     }
 
     @Override
     public @NotNull ItemStack getDefaultInstance() {
         ItemStack stack = super.getDefaultInstance();
-        stack.set(Clockware_Components.CLOCKWARE_UUID.get(), new ClockwareUUID(UUID.randomUUID()));
+        stack.set(Clockware_Components.CLOCKWARE_UUID.get(), new ClockwareUUID(new UUID(RANDOM.nextLong(), RANDOM.nextLong())));
         return stack;
     }
 
